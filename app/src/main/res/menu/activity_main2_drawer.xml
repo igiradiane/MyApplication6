@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/em1"
+            android:title="Email" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/dsh"
+            android:title="Dish" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/re"
+            android:title="Receipt" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/kok"
+            android:title="View Dish" />
+    </group>
+
+    <item android:title="more settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/p2"
+                android:title="Change password" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/pr3"
+                android:title="Change profile" />
+        </menu>
+    </item>
+
+</menu>
